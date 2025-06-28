@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <nav class="navbar">
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+
+    <header class="hero-header">
+  <div class="overlay">
+    <div class="content">
+      <img src="Assests/img/profile_photo.jpg" class="profile-pic" alt="Profile Photo">
+      <h1>DHURGESH PALANI</h1>
+      <p>STUDENT AT UNIVERSITI TEKNOLOGI PETRONAS</p>
+
+      <div class="social-icons">
+        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="about" class="about-section">
+  <div class="about-container">
+    
+    <!-- About Me -->
+    <div class="about-me">
+      <h2>Profile</h2>
+      <p>
+        Hello! I am Dhurgesh Palani, a student at Universiti Teknologi PETRONAS.
+        I am a dedicated and self-motivated undergraduate student currently pursuing a Bachelor of Information Technology (Hons.) at Universiti Teknologi PETRONAS (UTP). </p>
+        
+        <p>
+          I am passionate about technology and problem-solving and eager to apply my academic knowledge to real-world challenges. I continuously enhance my skills in software development, data analysis, and IT solutions. I also thrive in collaborative environments and am committed to personal and professional growth in the field of information technology.
+      </p>
+    </div>
+
+    <!-- Basic Info -->
+    <div id="contact" class="basic-info">
+      <h2>Information</h2>
+      <ul>
+        <li><strong>Age:</strong> 20</li>
+        <li><strong>Email:</strong> dhurgesh_24000044@utp.edu.my</li>
+        <li><strong>Phone:</strong> +60-18-5747381</li>
+        <li><strong>Address:</strong> Seri Iskandar, Perak, Malaysia</li>
+        <li><strong>Languages:</strong> English, Malay, Tamil, Japanese </li>
+      </ul>
+    </div>
+    
+ <!-- Container for Skills and Projects side by side -->
+<div class="skills-projects-container">
+
+  <!-- Professional Skills -->
+  <div id="skills"  class="professional-skills">
+    <h2>Professional Skills</h2>
+    <ul>
+      <li><strong>Programming Languages:</strong> Python, MySQL, C++, HTML, CSS, JavaScript</li>
+    </ul>
+  </div>
+
+  <!-- Projects & Commitments -->
+  <div id="projects"  class="projects-commitments">
+    <h2>Projects & Commitments</h2>
+    <ul>
+      <li><strong>Hackathon 2024</strong> – Committee / Participant</li>
+      <li><strong>UTP Super Sport 2024 (UTPSS 2024)</strong> – Committee</li>
+      <li><strong>Mathematics Tutor for Tutor-Tutee Program</strong></li>
+    </ul>
+  </div>
+
+<!--Achievement-->
+<div class="section-box">
+  <h2>Achievements</h2>
+  <ul>
+    <li>Assisted in organizing Hackathon 2024 as committee and participated in team pitching.</li>
+    <li>Supported logistics and coordination for UTP Super Sport 2024 (UTPSS 2024).</li>
+    <li>Tutored peers in Mathematics under the Tutor-Tutee Program.</li>
+    <li>Balanced academics with active involvement in events and tutoring.</li>
+    <li>Improved public speaking and teamwork through committee roles.</li>
+    <li>Received positive feedback for tutoring effectiveness and commitment.</li>
+  </ul>
+</div>
+
+</div>
+
+  </div>
+</section>
+
+<script>
+  window.addEventListener('load', () => {
+    if (window.location.hash) {
+      window.scrollTo(0, 0);
+      history.replaceState(null, null, ' '); // removes the #about
+    }
+  });
+</script>
+
+
+
+
+
+</body>
+</html>
